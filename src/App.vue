@@ -3,7 +3,7 @@
     <div class="wrapper">
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/about">Jijijijja</RouterLink>
       </nav>
     </div>
   </header>
