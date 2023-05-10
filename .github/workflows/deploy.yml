@@ -24,7 +24,7 @@ jobs:
       #     repo_name=$(git rev-parse --show-toplevel | xargs basename)
       #     echo "<!DOCTYPE html><html lang="es"><head><meta http-equiv='refresh' content='0; url=https://juanmelmos.github.io/$repo_name/'></head></html>" > dist/404.html
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-actions@3.7.1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           branch: gh-pages
           folder: dist
